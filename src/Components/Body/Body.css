@@ -1,0 +1,386 @@
+.body-links {
+  margin-top: 40px;
+  margin-left: 70px;
+}
+.body-link {
+  text-decoration: none;
+  padding: 20px;
+  color: gray;
+}
+.body-main {
+  display: flex;
+  justify-content: space-around;
+}
+.body-sidebar {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.box1-p {
+  margin-bottom: 23.5px;
+  width: 62px;
+  height: 62px;
+  border: 1px solid #4978e8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 2nd Sec */
+.body-second-box {
+  border: 1px solid #d8d8d8;
+  margin-top: 30px;
+  height: 314px;
+  width: 335px;
+  border-radius: 7px;
+}
+.product-name {
+  display: none;
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #707070;
+  margin-bottom: 10px;
+}
+.product-id {
+  display: none;
+}
+.lady-image {
+  width: 100%;
+  height: 100%;
+}
+.lady-dot-rounded {
+  margin: 10px;
+  display: none;
+
+
+}
+.round-1,.round-2,.round-3,.round-4 {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.round-1 {
+  background-color: #47afff;
+}
+
+
+/* third sec */
+.body-third-box {
+  padding: 20px;
+}
+.body-third-box-heading,
+.dollor-rate {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 37.24px;
+  margin-bottom: 4px;
+}
+.shipping,
+.size-heading,
+.color,
+.quantity,
+.zipcode,
+.product-id {
+  color: #707070;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.size-heading,
+.quantity,
+.zipcode {
+  font-size: 16px;
+}
+.size-child {
+  margin-top: 10px;
+}
+.size-child-button {
+  width: 68px;
+  height: 35px;
+  background-color: transparent;
+  border: 1px solid #aaaaaa;
+  color: #aaaaaa;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.color {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.parent-color {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.color1,
+.color2,
+.color3,
+.color4,
+.color5 {
+  height: 32px;
+  width: 32px;
+  background-color: #1b8f39;
+  border-radius: 50%;
+  margin-right: 21.5px;
+}
+.color2 {
+  background-color: #ce3939;
+}
+.color3 {
+  background-color: #5b92bc;
+}
+.color4 {
+  background-color: #363636;
+}
+.color5 {
+  background-color: #e7e7e7;
+}
+/*  */
+.sec-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.quantity-button,
+.quantity-button1 {
+  width: 98px;
+  height: 38px;
+  color: #aaaaaa;
+  background-color: transparent;
+  border: 2px solid #bbbbbb;
+  border-radius: 3px;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.quantity-button1 {
+  width: 131px;
+}
+.sec-2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 30px;
+}
+.bottom-sec-1-heading {
+  color: #707070;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+.bottom-sec-2 {
+  margin-left: 20px;
+}
+
+/* Fouth sec */
+.body-fourth-box {
+  margin-top: 40px;
+}
+.con1,
+.con3 {
+  min-width: 251px;
+  height: 51px;
+  border: 1px solid #bbbbbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+.con1-text,
+.con3-text {
+  font-size: 18px;
+  color: #1c1c1c;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+.con2 {
+  border: 1px solid #bbbbbb;
+  border-top: none;
+  padding: 25px;
+}
+.con3-text{
+    font-size: 14px;
+}
+.con2-sec1,
+.con2-sec2 {
+  display: flex;
+}
+.con2-sec1{
+    margin-bottom: 20px;
+}
+.con2-sec1-2 {
+  background-color: #47afff;
+  width: 44px;
+  height: 30px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.con2-sec1-1-dollars,
+.con2-sec1-1-ship {
+  font-size: 18px;
+  color: #464646;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.con2-sec1-1-ship {
+  line-height: 18.62px;
+}
+.delivery {
+  
+  margin-top: 20px;
+  display: flex;
+  color: #707070;
+ 
+}
+.delivery-sec1 {
+  font-size:50px;
+}
+.delivery-sec1-1 {
+ font-size: 16px;
+ padding: 20px;
+}
+.delivery1 {
+  display: flex;
+}
+.delivery1-sec2 {
+  font-size: 16px;
+  color: #707070;
+}
+
+.delivery2{
+  font-size: 16px;
+  margin-top: 10px;
+  color: #707070;
+
+}
+
+.description {
+  max-width: 1124px;
+  margin-left: 100px;
+}
+
+.heading,
+.description-content,
+.description-list,.rec-product-heading {
+  color: #707070;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.heading {
+  margin-bottom: 16px;
+}
+
+.description-content {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.description-list {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.rec-products {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+
+}
+
+.rec-products-list,.rec-products-list1 {
+  width: 224px;
+  height: 356px;
+  border: 1px solid #D8D8D8;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.rec-pic {
+  width: 162px;
+  height: 162px;
+ 
+}
+
+.rec-products-name ,.rec-products-amount ,.rec-products-button{
+  margin: 20px;
+  
+}
+
+.rec-products-button {
+  background-color: #47AFFF;  
+
+}
+
+
+.rec-product-heading {
+  margin-left: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+@media only screen and (max-width: 800px) {
+  .body-main {
+    flex-direction: column;
+  }
+  .body-sidebar {
+    display: none;
+  }
+  .breadcumbs {
+    display: none;
+  }
+  .product-name {
+    display: block;
+  }
+  .body-third-box-heading {
+    display: none;
+  }
+  .product-id {
+    display: block;
+    margin-top: 30px;
+  }
+  .lady-dot-rounded {
+     display: flex;
+      align-items: center;
+     justify-content: space-between; 
+     padding: 0 25%;
+    
+  }
+
+  .body-second-box {
+    margin: auto;
+  }
+  
+
+  .heading{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-bottom:none;
+  }
+  .description {
+    margin: 0;
+    margin-top: 10px;
+  }
+  .rec-product-heading {
+    margin: 0 ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .rec-products-list {
+    display: none;
+
+  }
+  .body-second-box{
+      border: none;
+
+  }
+}
