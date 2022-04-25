@@ -11,6 +11,10 @@ const Header = () => {
         <div className="header-logo">
           <img src="logo.png" alt="" />
         </div>
+        <div className="delivery-logo"><div>
+          <img src="delivery.png" alt=""/> </div> 
+        </div>
+        &nbsp; &nbsp;&nbsp; &nbsp;
         <div className="header-search">
           <div>
             <input type="text" className="header-search-input" />
@@ -21,13 +25,27 @@ const Header = () => {
         </div>
         <div className="header-profile">
           <div className="header-profile-icon">
-            <img src="profile.png" alt="" />
+            <img src="user.png" alt="" />
           </div>
           <div className="header-search-cart">
             <img src="cart.png" alt="" />
           </div>
         </div>
       </div>
+      <div></div>
+      <hr></hr> 
+      <br></br>
+      <div className="header-2">
+        <h5>Tobacco</h5> &nbsp; &nbsp; &nbsp; &nbsp;
+        <h5>Hemp</h5> &nbsp; &nbsp; &nbsp; &nbsp;
+        <h5>Vape</h5> &nbsp; &nbsp; &nbsp; &nbsp;
+        <h5>Alternative</h5> &nbsp; &nbsp; &nbsp; &nbsp;
+        <h5>General Merchandise</h5> &nbsp; &nbsp; &nbsp; &nbsp;
+        <h5>Brand</h5> &nbsp; &nbsp; &nbsp; &nbsp;
+        <h5>Article</h5> &nbsp; &nbsp; &nbsp; &nbsp;
+      </div>
+      <br></br>
+      <hr></hr>
 
       {/* Mobile */}
       <div className="header-mobile-main">

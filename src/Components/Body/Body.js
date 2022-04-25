@@ -18,14 +18,12 @@ const Body = () => {
       Home
     </Link>,
     <Link underline="hover" key="1" color="inherit" href="/">
-      Category
+      Cigars
     </Link>,
     <Link underline="hover" key="1" color="inherit" href="/">
-      Sub Category
+       Cohiba Blue Robusto 20 Ct. Box 5.50X50
     </Link>,
-    <Link underline="hover" key="1" color="inherit" href="/">
-      Product
-    </Link>,
+    
   ];
 
   return (
@@ -78,9 +76,9 @@ const Body = () => {
           </div>
 
           {/* 2 nd Section */}
-          <div className="product-name">Product Name</div>
+          <div className="product-name">ABCDED</div>
           <div className="body-second-box">
-            <img src="lady.png" className="lady-image" alt="" />
+            <img src="main.png" className="main-image" alt="" />
             <div className="lady-dot-rounded">
               <div className="round-1"></div>
               <div className="round-2"></div>
@@ -92,84 +90,46 @@ const Body = () => {
           {/* 3 rd section */}
           <div className="body-third-box">
             <div className="body-third-box-heading">
-              Waterfall Knitted Cardigan
+              <h6>Cohiba</h6>
+              <h3> Corona Crystal</h3>
             </div>
             <div className="product-id">Product Id 2CDE283001R0100</div>
             <div style={{ marginBottom: "15px" }}>
               <Rating
                 name="half-rating-read"
-                defaultValue={3.5}
+                defaultValue={4}
                 precision={0.5}
                 style={{ color: "4978E8" }}
-              />
-            </div>
-            <div className="dollor-rate">$64.99</div>
-            <div className="shipping">Free Shipping</div>
-            <Divider style={{ color: "#BBBBBB", margin: "10px 0" }} />
+                />
+              </div>
+              <div className="product-description"> 
+              <b>Product Description:</b> <br/>
+               Cohiba Crystal Corona Tube Cigars; this natural Cigar is a medium bodied cigar with warm buttery flavors of butterscotch, each cigar encased in its own crystal tubo humidor.</div>
+            
+            
 
             <div className="size-parent">
-              <div className="size-heading">Select Size</div>
-              <div className="size-child">
-                <button variant="outlined" className="size-child-button" >
-                  S
+              <div className="stock-heading">In Stock</div>
+              <div className="stocks">
+               Case qty: &nbsp; <button variant="outlined" className="stock-button" >
+                  Case 6
                 </button>
-                <button variant="outlined" className="size-child-button">
-                  M
+                <button variant="outlined" className="stock-button">
+                  Case 12
                 </button>
-                <button variant="outlined" className="size-child-button">
-                  L
-                </button>
+                
               </div>
             </div>
 
-            <div className="color">Select Color</div>
-            <div className="parent-color">
-              <div className="color1"></div>
-              <div className="color2"></div>
-              <div className="color3"></div>
-              <div className="color4"></div>
-              <div className="color5"></div>
-            </div>
-            <Divider style={{ color: "#BBBBBB", margin: "10px 0" }} />
+          
+            
 
-            <div className="quantity-main">
-              <div className="sec-1">
-                <div className="quantity">
-                  <div>Quantity</div>
-                  <button className="quantity-button">
-                    <div>-</div>
-                    <div>1</div>
-                    <div>+</div>
-                  </button>
-                </div>
-                <div className="zipcode">
-                  <div>Zipcode:</div>
-                  <button className="quantity-button1">90125</button>
-                  <div>
-                    <a
-                      href="#"
-                      style={{
-                        color: "#0A6EBC",
-                        fontWeight: "600",
-                        fontSize: "14px",
-                        marginTop: "10px",
-                      }}
-                    >
-                      Check Availability
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="sec-2">
-                <Button variant="contained" style={{backgroundColor:"#47AFFF"}} sx={{ textTransform: "none" }}>
-                  Add to Cart
-                </Button>
-                <Button variant="contained">Buy Now </Button>
-              </div>
-            </div>
-            <Divider style={{ color: "#BBBBBB", margin: "10px 0" }} />
-
+            
+            
+                
+                  
+                
+                    
             <div style={{ display: "flex", marginTop: "20px" }}>
               <div className="bottom-sec-1">
                 <div className="bottom-sec-1-heading">Sold By</div>
@@ -198,7 +158,8 @@ const Body = () => {
           <div className="body-fourth-box">
             <div className="fourth-box-1">
               <div className="con1">
-                <div className="con1-text">More Sellers</div>
+                <div className="con1-text"><b>$70.00 </b>   <strike> $87.00</strike> </div> <br></br>
+                <div className="yellowbox">10%off</div>
               </div>
               <div className="con2">
                 <div className="con2-sec1">

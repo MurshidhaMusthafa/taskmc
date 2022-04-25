@@ -17,13 +17,17 @@
 }
 .box1-p {
   margin-bottom: 23.5px;
-  width: 62px;
-  height: 62px;
-  border: 1px solid #4978e8;
   border-radius: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solid #C3B072;
+  border-radius: 3px;
+  top: 316px;
+  left: 93px;
+  width: 63px;
+  height: 63px;
+  background: none;
 }
 /* 2nd Sec */
 .body-second-box {
@@ -44,7 +48,16 @@
 .product-id {
   display: none;
 }
-.lady-image {
+.product-description{
+  text-align: left;
+letter-spacing: 0px;
+color: #333333;
+top: 407px;
+left: 750px;
+width: 658px;
+height: 66px;
+}
+.main-image {
   width: 100%;
   height: 100%;
 }
@@ -77,10 +90,7 @@
   line-height: 37.24px;
   margin-bottom: 4px;
 }
-.shipping,
-.size-heading,
 .color,
-.quantity,
 .zipcode,
 .product-id {
   color: #707070;
@@ -88,15 +98,24 @@
   font-weight: 400;
   font-size: 14px;
 }
-.size-heading,
-.quantity,
-.zipcode {
+.yellowbox{
+  top: 265px;
+left: 1769px;
+width: 74px;
+height: 24px;
+background-color: #F2DD8A;
+border-radius: 15px;
+text-align: left;
+font: normal normal bold 12px/20px;
+}
+.stock-heading
+{
   font-size: 16px;
 }
-.size-child {
+.stocks {
   margin-top: 10px;
 }
-.size-child-button {
+.stock-button {
   width: 68px;
   height: 35px;
   background-color: transparent;
@@ -105,62 +124,15 @@
   border-radius: 5px;
   margin-right: 15px;
 }
-.color {
-  margin-top: 20px;
-  font-size: 16px;
-}
-.parent-color {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-.color1,
-.color2,
-.color3,
-.color4,
-.color5 {
-  height: 32px;
-  width: 32px;
-  background-color: #1b8f39;
-  border-radius: 50%;
-  margin-right: 21.5px;
-}
-.color2 {
-  background-color: #ce3939;
-}
-.color3 {
-  background-color: #5b92bc;
-}
-.color4 {
-  background-color: #363636;
-}
-.color5 {
-  background-color: #e7e7e7;
-}
+
+
 /*  */
 .sec-1 {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-.quantity-button,
-.quantity-button1 {
-  width: 98px;
-  height: 38px;
-  color: #aaaaaa;
-  background-color: transparent;
-  border: 2px solid #bbbbbb;
-  border-radius: 3px;
-  margin-top: 5px;
-  padding: 5px;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-evenly;
-}
-.quantity-button1 {
-  width: 131px;
-}
+
 .sec-2 {
   display: flex;
   justify-content: space-between;
