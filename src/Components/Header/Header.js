@@ -57,7 +57,7 @@ const Header = () => {
         </div>
         <div className="header-profile">
           <div className="header-profile-icon" style={{margin:"0 10px 0 -10px"}}>
-            <img src="profile.png" alt="" />
+            <img src="user.png" alt="" />
           </div>
           <div className="header-search-cart">
             <img src="cart.png" alt="" />

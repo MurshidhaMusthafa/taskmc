@@ -1,6 +1,6 @@
 import React from "react";
-import { IoCart } from "react-icons/io5";
-import { MdLocalShipping } from "react-icons/md";
+
+
 import {
   Button,
   Rating,
@@ -76,7 +76,7 @@ const Body = () => {
           </div>
 
           {/* 2 nd Section */}
-          <div className="product-name">ABCDED</div>
+          <div className="product-name"></div>
           <div className="body-second-box">
             <img src="main.png" className="main-image" alt="" />
             <div className="lady-dot-rounded">
@@ -93,7 +93,7 @@ const Body = () => {
               <h6>Cohiba</h6>
               <h3> Corona Crystal</h3>
             </div>
-            <div className="product-id">Product Id 2CDE283001R0100</div>
+            <div className="product-id"></div>
             <div style={{ marginBottom: "15px" }}>
               <Rating
                 name="half-rating-read"
@@ -130,28 +130,17 @@ const Body = () => {
                   
                 
                     
-            <div style={{ display: "flex", marginTop: "20px" }}>
-              <div className="bottom-sec-1">
-                <div className="bottom-sec-1-heading">Sold By</div>
-                <div className="bottom-sec-1-heading">Seller Rating</div>
-              </div>
+            
+             
               <div className="bottom-sec-2">
-                <div style={{ marginBottom: "14px" }}>
-                  <a href="#" style={{ color: "#0A6EBC" }}>
-                    Seller One
-                  </a>
+                
+              
                 </div>
-                <div>
-                  <Rating name="size-medium" defaultValue={4} />
-                </div>
-              </div>
+                
+              
             </div>
-            <div>
-              <a href="#" style={{ color: "#0A6EBC", fontSize: "16px" }}>
-                Seller Information
-              </a>
-            </div>
-          </div>
+            
+          
 
           {/* 4th section */}
 
@@ -164,41 +153,23 @@ const Body = () => {
               <div className="con2">
                 <div className="con2-sec1">
                   <div className="con2-sec1-1">
-                    <div className="con2-sec1-1-dollars">$67.00</div>
+                    <div className="con2-sec1-1-cart"></div>
                     <div style={{ marginBottom: "5px" }}>
-                      <a href="#" style={{ color: "#0A6EBC" }}>
-                        Seller Two
-                      </a>
+                      <h5>Tax : </h5>
+                      
                     </div>
-                    <div className="con2-sec1-1-ship">
-                      Free Shipping (Standard)
-                    </div>
+                    <button className="add-cart">Add to cart</button>
+                    <button className="wishlist">Add to Wishlist</button>
                   </div>
-                  <div className="con2-sec1-2">
-                    <IoCart color="white" />
-                  </div>
+                  
                 </div>
-                <div className="con2-sec2">
-                  <div className="con2-sec1-1">
-                    <div className="con2-sec1-1-dollars">$65.50</div>
-                    <div style={{ marginBottom: "5px" }}>
-                      <a href="#" style={{ color: "#0A6EBC" }}>
-                        Seller Three
-                      </a>
-                    </div>
-                    <div className="con2-sec1-1-ship">
-                      Shipping $5.99 (Express)
-                    </div>
-                  </div>
-                  <div className="con2-sec1-2">
-                    <IoCart color="white" />
-                  </div>
-                </div>
+                
               </div>
               <div className="con3">
                 <div className="con3-text">
-                  <a href="#" style={{ color: "#0A6EBC" }}>
-                    Other offers starting at $91.00
+                <div style={{ marginBottom: "15px" }}></div>
+                  <a href="#" style={{ color: "#7A3304" }}>
+                  Other offers starting at $91.00
                   </a>
                 </div>
               </div>
@@ -206,78 +177,38 @@ const Body = () => {
 
             <div className="delivery">
               <div className="delivery-sec1">
-                <MdLocalShipping />
+              
               </div>
-              <div className="delivery-sec1-1">Shipping Options:</div>
+              <div className="delivery-sec-1-heading">Sold by : </div>
+              <div className="delivery-sec1-1-heading">Cohiba Enterprices </div>
             </div>
+            
+            
 
-            <div className="delivery1" >
-              <div className="delivery1-sec2">
-                Before Oct 14 - <b>$5.99</b>
-              </div>
-              <div>
-                <a
-                  href="#"
-                  style={{
-                    color: "#0A6EBC",
-                    marginLeft: "10px",
-                    fontWeight: "500",
-                    fontSize: "16px",
-                    marginTop: "10px",
-                  }}
-                >
-                  Select Express
-                </a>
-              </div>
+            <div className="delivery-sec1-1-heading">Seller Rating:
+            
+                  <Rating  defaultValue={4} /></div>
+                
+                <div>
+              <a href="#" style={{ color: "#7A3304", fontSize: "16px" }}>
+                Seller Information
+              </a>
             </div>
-            <div className="delivery2" >
-              After Oct-14 - <b>FREE</b> (Standard Shipping)
-            </div>
+           
+             
+            
           </div>
         </div>
 
-        <div className="description">
-          <div className="heading">
-            Description
-          </div>
-          <div className="description-content">
-            The Women Solid Color Waterfall Neck Knitted Cardigan is made out of
-            soft knit fabric. This cardigan features a waterfall neck and solid
-            color. A perfect option for your casual occasion. Take a look at our
-            store "Nlife LLC", you will find more what you want!Note: Please
-            refer to our size image chart before order. That’s the size for this
-            item.
-          </div>
-          <div>
-            <ul style={{ padding: "0px 0px 0px 20px" }}>
-              <li className="description-list">
-                Lightweight knit blended fabric, nice wear resistance and
-                wrinkle resistance, last longer without pilling.
-              </li>
-              <li className="description-list">
-                Waterfall neck, long sleeve, solid color, open front, casual
-                style for everyday comfort.
-              </li>
-              <li className="description-list">
-                Fits for daily wear, school, vacation, work. Easy to pair with
-                jeans, skinny leggings, boots in spring, autumn fall and winter.
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="rec-product-heading"  >Recommended Products</div>
+        
+        <div className="rec-product-heading"  >Recommended</div>
           <div className="rec-products"   >
             <div className="rec-products-list" >
               <Card style={{width:"162"  }} >
                 <Card.Img variant="top" src="pic5.png" className="rec-pic"  />
                 <Card.Body>
-                  <Card.Title className="rec-products-name"  >Hoodie Sweatshirt</Card.Title>
+                  <Card.Title className="rec-products-name"  >Cuban Rounds Churchill Maduro 20 Ct. Bundle 7.00X48</Card.Title>
                 </Card.Body>
-                <ListGroup className="list-group-flush">
-                  <ListGroupItem  className="rec-products-amount">$61.20</ListGroupItem>
-                  <Button  variant="contained" style={ {backgroundColor:" #47AFFF"}}>Shop Now</Button>
-                </ListGroup>
               </Card>
             </div>
   
@@ -285,12 +216,9 @@ const Body = () => {
               <Card style={{ width: "162" }}>
                 <Card.Img variant="top" src="pic6.png" className="rec-pic" />
                 <Card.Body>
-                  <Card.Title  className="rec-products-name">V Neck Top</Card.Title>
+                  <Card.Title  className="rec-products-name">Acid Krush Morado Maduro 5/10 Tins 4.00X32</Card.Title>
                 </Card.Body>
-                <ListGroup className="list-group-flush">
-                  <ListGroupItem  className="rec-products-amount">$56.20</ListGroupItem>
-                  <Button variant="contained" style={ {backgroundColor:" #47AFFF"}}>Shop Now</Button>
-                </ListGroup>
+                
               </Card>
             </div>
   
@@ -298,13 +226,9 @@ const Body = () => {
               <Card style={{ width: "162" }}>
                 <Card.Img variant="top" src="pic7.png" className="rec-pic" />
                 <Card.Body>
-                  <Card.Title  className="rec-products-name">Short Sleeve</Card.Title>
+                  <Card.Title  className="rec-products-name">Cohiba Connecticut Toro 20 Ct. Box 6.50x52</Card.Title>
                 </Card.Body>
-                <ListGroup className="list-group-flush">
-                  <ListGroupItem  className="rec-products-amount">$45.20</ListGroupItem>
-                  <Button variant="contained" style={
-                    {backgroundColor:" #47AFFF"}}>Shop Now</Button>
-                </ListGroup>
+                
               </Card>
             </div>
   
@@ -312,12 +236,18 @@ const Body = () => {
               <Card style={{ width: "162" }}>
                 <Card.Img variant="top" src="pic8.png" className="rec-pic" />
                 <Card.Body>
-                  <Card.Title  className="rec-products-name">Full Sleeve Sweater</Card.Title>
+                  <Card.Title  className="rec-products-name">Amira Aftershock W/Magna Technology Blue/Blue 1 Hose (2 Hose Capacity) 19"</Card.Title>
                 </Card.Body>
-                <ListGroup className="list-group-flush">
-                  <ListGroupItem  className="rec-products-amount">$71.20</ListGroupItem>
-                  <Button variant="contained" style={ {backgroundColor:" #47AFFF"}}>Shop Now</Button>
-                </ListGroup>
+               
+              </Card>
+              </div>
+              <div className="rec-products-list">
+              <Card style={{ width: "162" }}>
+                <Card.Img variant="top" src="pic9.png" className="rec-pic" />
+                <Card.Body>
+                  <Card.Title  className="rec-products-name">Dr. Grabow Pipes Dr. Grabow Omega</Card.Title>
+                </Card.Body>
+                
               </Card>
             </div>
           </div>
